@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #141414;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #222;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.hero {
+    background: url('https://example.com/imagem-fundo-hero.jpg') no-repeat center center;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.plans {
+    padding: 20px;
+    text-align: center;
+}
+
+.plan {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.basic {
+    background-image: url('https://example.com/imagem-plano-basico.jpg');
+}
+
+.standard {
+    background-image: url('https://example.com/imagem-plano-padrao.jpg');
+}
+
+.premium {
+    background-image: url('https://example.com/imagem-plano-premium.jpg');
+}
+
+.plan h3, .plan p {
+    margin: 10px 0;
+}
+
+button {
+    background-color: #e50914;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f40612;
+}
+
+.login-form {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+}
